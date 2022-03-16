@@ -52,7 +52,7 @@
 @import "utilities/api";
 // scss-docs-end import-stack
 
-.heroservices {
+.hero {
   &__section {
     padding-bottom: 150px;
   }
@@ -73,7 +73,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .heroservices {
+  .hero {
     &__section {
       padding-bottom: 30px;
     }
