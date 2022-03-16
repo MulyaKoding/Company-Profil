@@ -1,11 +1,16 @@
+import Footer from "components/Footer";
 import Header from "components/Header";
+import HeroAbout from "components/HeroAbout";
+import VisiMisi from "components/VisiMisi";
 
 const About = () => {
   return (
-    <div>
+    <>
       <Header />
-      About
-    </div>
+      <HeroAbout />
+      <VisiMisi />
+      <Footer />
+    </>
   );
 };
 

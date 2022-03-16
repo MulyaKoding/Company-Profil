@@ -6,7 +6,7 @@ import Videotron from "components/Videotron";
 
 const Home = () => {
   return (
-    <div className="home">
+    <>
       <Header />
       <Videotron />
       <Hero />
@@ -14,7 +14,7 @@ const Home = () => {
       <div style={{ marginTop: 150 }}>
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 

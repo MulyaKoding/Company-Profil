@@ -52,6 +52,12 @@
 @import "utilities/api";
 // scss-docs-end import-stack
 
+.header {
+  &__logo {
+    height: 35px;
+  }
+}
+
 .hero {
   &__section {
     padding-bottom: 150px;
@@ -73,6 +79,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    &__logo {
+      height: 50px;
+    }
+  }
+
   .hero {
     &__section {
       padding-bottom: 30px;

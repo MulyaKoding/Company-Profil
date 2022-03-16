@@ -10,7 +10,7 @@ const Header = () => {
     <Navbar bg="light" expand="lg" className="shadow py-3">
       <Container>
         <Navbar.Brand onClick={() => navigate("/")}>
-          <Image src={NavbarLogo} alt={NavbarLogo} height={39} />
+          <Image src={NavbarLogo} alt={NavbarLogo} className="header__logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>

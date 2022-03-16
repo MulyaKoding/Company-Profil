@@ -5,12 +5,12 @@ import Information from "components/Information";
 
 const Services = () => {
   return (
-    <div>
+    <>
       <Header />
       <HeroServices />
       <Information />
       <Footer />
-    </div>
+    </>
   );
 };
 

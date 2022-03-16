@@ -5,12 +5,12 @@ import HeroProducts from "components/HeroProducts";
 
 const Products = () => {
   return (
-    <div>
+    <>
       <Header />
       <HeroProducts />
       <Features />
       <Footer />
-    </div>
+    </>
   );
 };
 
