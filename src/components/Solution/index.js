@@ -19,7 +19,7 @@ const Solution = () => {
           <Image src={Hospital} alt={Hospital} style={{ maxHeight: 300, maxWidth: "100%" }} />
         </div>
         <div className="d-flex justify-content-center">
-          <Row className="bg-primary py-4 position-absolute w-75 rounded" style={{ bottom: -70 }}>
+          <Row className="bg-primary py-4 position-absolute w-75 rounded-3" style={{ bottom: -70 }}>
             <Col md={4} className="text-center mb-4 mb-md-0">
               <Image src={IC_Support} alt={IC_Support} width={60} />
               <div className="text-light fs-5 mt-3">Free Support</div>

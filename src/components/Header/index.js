@@ -7,7 +7,7 @@ const Header = () => {
   const { pathname } = useLocation();
 
   return (
-    <Navbar bg="light" expand="lg" className="shadow">
+    <Navbar bg="light" expand="lg" className="shadow py-3">
       <Container>
         <Navbar.Brand onClick={() => navigate("/")}>
           <Image src={NavbarLogo} alt={NavbarLogo} height={39} />
