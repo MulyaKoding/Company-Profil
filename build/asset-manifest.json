@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f260a08.css",
+    "main.js": "/static/js/main.90382f40.js",
+    "static/js/787.f4bb5d0f.chunk.js": "/static/js/787.f4bb5d0f.chunk.js",
+    "static/media/earth_videotron.mp4": "/static/media/earth_videotron.39e6c79bffb375ae929a.mp4",
+    "static/media/services.png": "/static/media/services.73e3f9acac7a9785bf10.png",
+    "static/media/aboutus.png": "/static/media/aboutus.bb3c3ad53c3b58cb2eb1.png",
+    "static/media/hospital.png": "/static/media/hospital.375a734072fa89b0dfb3.png",
+    "static/media/visimisi.png": "/static/media/visimisi.c3c09b5d7cdbe27f4948.png",
+    "static/media/products.png": "/static/media/products.0b7f66ba87e427b78f1c.png",
+    "static/media/home.png": "/static/media/home.08668e1ecebe444cb7a4.png",
+    "static/media/logo_navbar.png": "/static/media/logo_navbar.682dbd4a09734f9b33dc.png",
+    "index.html": "/index.html",
+    "main.3f260a08.css.map": "/static/css/main.3f260a08.css.map",
+    "main.90382f40.js.map": "/static/js/main.90382f40.js.map",
+    "787.f4bb5d0f.chunk.js.map": "/static/js/787.f4bb5d0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f260a08.css",
+    "static/js/main.90382f40.js"
+  ]
+}
