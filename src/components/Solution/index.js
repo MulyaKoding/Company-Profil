@@ -1,16 +1,18 @@
-import { Col, Container, Image, Row } from "react-bootstrap";
+import {
+  // Col,
+  Container,
+  Image,
+  // Row,
+} from "react-bootstrap";
 
 import Hospital from "assets/images/hospital.png";
-import IC_Support from "assets/images/ic_support.png";
-import Ic_Easyaccess from "assets/images/ic_easyaccess.png";
-import IC_Onlinecare from "assets/images/ic_onlinecare.png";
+// import IC_Support from "assets/images/ic_support.png";
+// import Ic_Easyaccess from "assets/images/ic_easyaccess.png";
+// import IC_Onlinecare from "assets/images/ic_onlinecare.png";
 
 const Solution = () => {
   return (
-    <section
-      className="my-5 py-5 position-relative"
-      style={{ backgroundColor: "#E8EEEE", minHeight: 700 }}
-    >
+    <section className="my-5 py-5 position-relative" style={{ backgroundColor: "#E8EEEE" }}>
       <Container>
         <h1 className="h3 fw-bold text-center text-primary pb-3 pb-md-5">
           SOLUTION TO YOUR HEALTH CARE
@@ -18,7 +20,7 @@ const Solution = () => {
         <div className="text-center pt-5">
           <Image src={Hospital} alt={Hospital} style={{ maxHeight: 300, maxWidth: "100%" }} />
         </div>
-        <div className="d-flex justify-content-center">
+        {/* <div className="d-flex justify-content-center">
           <Row className="bg-primary py-4 position-absolute w-75 rounded-3" style={{ bottom: -70 }}>
             <Col md={4} className="text-center mb-4 mb-md-0">
               <Image src={IC_Support} alt={IC_Support} width={60} />
@@ -33,7 +35,7 @@ const Solution = () => {
               <div className="text-light fs-5 mt-3">Online Care</div>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </Container>
     </section>
   );

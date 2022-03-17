@@ -1,19 +1,19 @@
+import Facilities from "components/Facilities";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import Hero from "components/Hero";
+import HeroHome from "components/HeroHome.js";
 import Solution from "components/Solution";
-import Videotron from "components/Videotron";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Videotron />
+      <HeroHome />
+      <Facilities />
       <Hero />
       <Solution />
-      <div style={{ marginTop: 150 }}>
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 };

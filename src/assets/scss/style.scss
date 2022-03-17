@@ -58,6 +58,16 @@
   }
 }
 
+.herohome {
+  &__bg {
+    background-image: url("../images/home_earth.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 600px;
+  }
+}
+
 .hero {
   &__section {
     padding-bottom: 150px;
