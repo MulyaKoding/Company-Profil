@@ -6,10 +6,10 @@ import IC_Onlinecare from "assets/images/ic_onlinecare_green.png";
 
 const Facilities = () => {
   return (
-    <section className="bg-light" style={{ margin: "100px 0" }}>
+    <section style={{ margin: "100px 0" }}>
       <Container>
         <Row>
-          <Col md={4} className="d-flex justify-content-center">
+          <Col md={4} className="d-flex justify-content-center mb-5 mb-md-0">
             <Card
               className="border border-primary text-center"
               style={{ borderRadius: 20, width: 300, height: 200 }}
@@ -22,7 +22,7 @@ const Facilities = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="d-flex justify-content-center">
+          <Col md={4} className="d-flex justify-content-center mb-5 mb-md-0">
             <Card
               className="border border-primary text-center"
               style={{ borderRadius: 20, width: 300, height: 200 }}
@@ -35,7 +35,7 @@ const Facilities = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={4} className="d-flex justify-content-center">
+          <Col md={4} className="d-flex justify-content-center mb-5 mb-md-0">
             <Card
               className="border border-primary text-center"
               style={{ borderRadius: 20, width: 300, height: 200 }}
