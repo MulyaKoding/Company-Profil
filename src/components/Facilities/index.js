@@ -4,6 +4,7 @@ import IC_Support from "assets/images/ic_freesupport_green.png";
 import IC_Easyaccess from "assets/images/ic_easyaccess_green.png";
 import IC_Onlinecare from "assets/images/ic_onlinecare_green.png";
 
+
 const Facilities = () => {
   return (
     <section style={{ margin: "100px 0" }}>
